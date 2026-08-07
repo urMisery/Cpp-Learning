@@ -3,4 +3,4 @@ project(Chapter_01_Basics)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Chapter_01_Basics main.cpp)
+add_executable(Chapter_01_Basics Calculator.cpp)
