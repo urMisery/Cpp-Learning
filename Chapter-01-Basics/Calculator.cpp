@@ -37,7 +37,7 @@ int main()
             break;
 
         case '%':
-            answer = static_cast<int>(round(_num1 + _num2));
+            answer = static_cast<int>(round(_num1)) % static_cast<int>(round(_num2));
             break;
 
         default:
